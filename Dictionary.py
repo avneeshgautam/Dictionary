@@ -76,7 +76,7 @@ if ad_user == 'admin' :
                 ######### adding word ################
                 while(1):
                     more=input("Do you want add more (Press 1): ")
-                    if more == 1:
+                    if more == '1':
                         word=input("\nEnter the word: ")
                         meaning=input("Enter the meaning: ")
                         print("\n")
